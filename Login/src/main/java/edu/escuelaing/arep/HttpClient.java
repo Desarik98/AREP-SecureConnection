@@ -43,7 +43,7 @@ public class HttpClient {
      */
     public static String getHttpService() throws IOException {
         System.out.println("entre");
-        URL url = new URL("https://ec2-18-234-163-72.compute-1.amazonaws.com:5002/service");
+        URL url = new URL("https://localhost:5002/service");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
         con.setDoOutput(true);

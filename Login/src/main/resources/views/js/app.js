@@ -1,5 +1,5 @@
 var api = (function () {
-    var url="https://ec2-18-234-163-72.compute-1.amazonaws.com:5002"
+    var url="https://localhost:4567"
 
     function load(){
         axios.get(url+"/auth/user").then(res=>{
@@ -19,7 +19,7 @@ var api = (function () {
                 alert(res.data)
             }
             else {
-                window.location.href="service";
+                window.location.href="auth/index.html";
             }
 
         })
