@@ -54,9 +54,11 @@ en donde podemos observar que entramos al otro servidor, además de esto podemos
 ![CorrectConnection](Images/correctConnection.png)
 
 Para terminar, en dado caso que el usuario digite mal las credenciales aparecerá el siguiente mensaje
+
 ![WrongPassword](Images/wrongPassword.png)
 
 y también podremos intentar acceder a otro recurso como por ejemplo /auth/index.html y podremos ver que no tenemos permisos para acceder a este
+
 ![Unauthorized](Images/unauthorized.png)
 
 ## Tecnologías usadas
